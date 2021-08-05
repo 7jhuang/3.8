@@ -34,23 +34,14 @@ h1, h2{
     grid-column:1/5;
     background-color:yellow;
     height:650px;
-    text-align:center;
 }
 
-.box1 a {
-    text-decoration:none;
-    background-color:#ccb4e7;
-    color:white;
+.box1 p {
     padding:10px;
-    border-radius:12px;
-    font-size:20px;
-}
-
-.box1 a:hover{
-    background-color:#9673A6;
 }
 
 .box1 h1 {
+    text-align:center;
     margin-top:12%;
     font-size:4.5em;
 }
@@ -69,8 +60,7 @@ h1, h2{
 .subtitle {
     grid-column:2/4;
     margin:3.5% 30% 0;
-    text-align:center;
-    border:1px solid black;
+    background-color:grey;
 }
 
 .subtitle p {
@@ -110,34 +100,20 @@ h1, h2{
 .quizbox{
     background-color:#ccb4e7;
     border:1px solid #9673A6;
-    margin:0 7.5% 0;
+    margin:0% 7.5% 0;
     color:white;
 }
 
 .quizbox h1{ 
+    text-align:center;
     margin-top:5%;
     color:white;
 }
 
 .quizbox h2{
     float:right;
-    margin:0;
-    padding:0;
-}
-
-.quizbox a{
-    text-decoration:none;
-    color:white;
-    padding:0 20px;
-}
-
-.quizbox .next{
-    float:right;
-}
-
-.quizbox .prev{
-    float:right;
-    margin:0;
+    padding-right:80px;
+    margin-top:-2%;
 }
 
 .quizbox p{
@@ -146,9 +122,14 @@ h1, h2{
     margin-bottom:5%;
 }
 
-.quizbox hr{
-    margin-top:9%;
-    margin-bottom:2%;
+.quizbox button{
+	background-color:#9673A6;
+	border:none;
+	padding:15px 30px;
+	cursor:pointer;
+	color:white;
+	margin:0 auto;
+	display:block;
 }
 /* end of quiz page css */
 
@@ -159,29 +140,29 @@ h1, h2{
     height:auto;
 }
 
-.article-list .flex-container{
-    margin-top:3%;
-    display:flex;
-}
-
-.article-list .flex-child{
-    flex:1;
-    border:1px solid black;
-    height:250px;
-    margin:0 2%;
-}
-
-.article-list .flex-container2{
-    display:flex;
-}
-
-.article-list .flex-child2{
-    flex:1;
-    text-align:center;
-}
-
 .article-list h1{
     text-align:center;
+}
+
+.article-list .image{
+    width:25%;
+    height:180px;
+    margin-left:5%;
+    margin-bottom:3%;
+    background-color:lightgreen;
+    display:inline-block;
+}
+
+.article-list .title{
+    background-color:lightblue;
+    width:40%;
+    display:inline-block;
+}
+
+.article-list h2{
+    text-align:center;
+    padding:0;
+    margin-top:1.75%;
 }
 
 .article-list .nav-buttons{
@@ -206,52 +187,66 @@ h1, h2{
 .article-list .nav-buttons p{
     margin-top:-1.5%;
 }
+
 /* end of article list page css */
 
 /* article page css */
-.article-wrapper{
-    grid-row:2;
-    grid-column:1/4;
-    display:grid;    /* another grid to set up inner text boxes*/
-    grid-template-columns: 75% 25%;
-    grid-template-rows:auto;
+.article{
+    grid-column:2/4;
+    height:1000px;
+    margin:5% 7.5% 0;
+    background-color:lightcoral;
 }
 
-.article{
-    grid-column:1/2;
-    margin-left:5%;
-    background-color:lightcoral;
-    height:1000px;
+.article h1, h2{
+    padding-left:60px;
+}
+
+.article h2{
+    padding-bottom:15px;
 }
 
 .article .video{
     border:1px solid black;
     height:400px;
-    margin:5% 10% 0;
+    margin:5% 5% 0;
 }
 
-.similar-articles{
-    grid-column:2/3;
+.article p{
+    margin-top:5%;
+}
+
+.similar{
+    grid-column:2/4;
+    height:auto;
+    margin:5% 0 0;
     background-color:lightskyblue;
-    height:680px;
 }
 
-.similar-articles h1{
+.similar h1{
     text-align:center;
 }
 
-.similar-articles p.image{
+.similar .flex-container{
+    margin-top:3%;
+    display:flex;
+}
+
+.similar .flex-child{
+    flex:1;
     border:1px solid black;
-    height:150px;
-    margin:auto 10%;
+    height:200px;
+    margin:0 2%;
 }
 
-.similar-articles p{
+.similar .flex-container2{
+    display:flex;
+}
+
+.similar .flex-child2{
+    flex:1;
     text-align:center;
-    margin-top:0;
-    margin-bottom:7.5%;
 }
-
 /* end of article page css */
 
 /* all products page css */
