@@ -1,0 +1,248 @@
+body {
+    display:grid;
+    grid-template-columns:1fr 85% 1fr;
+    grid-template-rows:75px auto auto;
+    margin:0 auto;
+    height:auto;
+}
+
+header {
+    grid-row:1;
+    grid-column:1/4;
+    background-color:pink;
+}
+
+header p {
+    padding:10px;
+}
+
+h1, h2{
+    font-weight:normal;
+}
+
+.wrapper {
+    grid-row:2;
+    grid-column:1/4;
+    display:grid;    /* another grid to set up inner text boxes*/
+    grid-template-columns: 1fr 42.5% 42.5% 1fr;
+    grid-template-rows:auto;
+    gap:1px;
+}
+
+/* index page css */
+.box1 {
+    grid-column:1/5;
+    background-color:yellow;
+    height:650px;
+}
+
+.box1 p {
+    padding:10px;
+}
+
+.box1 h1 {
+    text-align:center;
+    margin-top:12%;
+    font-size:4.5em;
+}
+
+.box2 {
+    grid-column:2/4;
+    margin:3.5% 10% 0;
+    background-color:orange;
+    height:400px;
+}
+
+.box2 p {
+    padding:10px;
+}
+
+.subtitle {
+    grid-column:2/4;
+    margin:3.5% 30% 0;
+    background-color:grey;
+}
+
+.subtitle p {
+    padding:10px;
+}
+
+
+.left{
+    grid-column:2/3;
+    margin-top:5%;
+    border:1px solid black;
+    width:100%;
+    height:250px;
+    background-color:lime;
+}
+
+.right {
+    grid-column:3/4;
+    margin-top:5%;
+    border:1px solid black;
+    width:100%;
+    height:250px;
+    background-color:greenyellow;
+}
+/* end of index page css */
+
+/* quiz page css */
+.quizbox{
+    grid-column:2/4;
+    background-color:#ccb4e7;
+    border:1px solid #9673A6;
+    margin:5% 7.5% 0;
+    color:white;
+}
+
+.quizbox h1{ 
+    text-align:center;
+    margin-top:5%;
+}
+
+.quizbox h2{
+    float:right;
+    padding-right:80px;
+    margin-top:-2%;
+}
+
+.quizbox p{
+    text-align:center;
+    margin-top:15%;
+    margin-bottom:5%;
+}
+/* end of quiz page css */
+
+/* article list page css */
+.article-list{
+    grid-column:2/4;
+    background-color:khaki;
+    height:auto;
+}
+
+.article-list h1{
+    text-align:center;
+}
+
+.article-list .image{
+    width:25%;
+    height:180px;
+    margin-left:5%;
+    margin-bottom:3%;
+    background-color:lightgreen;
+    display:inline-block;
+}
+
+.article-list .title{
+    background-color:lightblue;
+    width:40%;
+    display:inline-block;
+}
+
+.article-list h2{
+    text-align:center;
+    padding:0;
+    margin-top:1.75%;
+}
+
+/* end of article list page css */
+
+/* article page css */
+.article{
+    grid-column:2/4;
+    height:1000px;
+    margin:5% 7.5% 0;
+    background-color:lightcoral;
+}
+
+.article h1, h2{
+    padding-left:60px;
+}
+
+.article h2{
+    padding-bottom:15px;
+}
+
+.article .video{
+    border:1px solid black;
+    height:400px;
+    margin:5% 5% 0;
+}
+
+.article p{
+    margin-top:5%;
+}
+
+.similar{
+    grid-column:2/4;
+    height:auto;
+    margin:5% 0 0;
+    background-color:lightskyblue;
+}
+
+.similar h1{
+    text-align:center;
+}
+
+.similar .flex-container{
+    margin-top:3%;
+    display:flex;
+}
+
+.similar .flex-child{
+    flex:1;
+    border:1px solid black;
+    height:200px;
+    margin:0 2%;
+}
+
+.similar .flex-container2{
+    display:flex;
+}
+
+.similar .flex-child2{
+    flex:1;
+    text-align:center;
+}
+/* end of article page css */
+
+/* all products page css */
+.products {
+    grid-column:1/5;
+    height:auto;
+    text-align:center;
+}
+
+.products .flex-container{
+    background-color:palegreen;
+    margin-top:3%;
+    display:flex;
+}
+
+.products .flex-child{
+    flex:1;
+    border:1px solid black;
+    height:300px;
+    margin:0 2%;
+}
+
+.products .flex-container2{
+    display:flex;
+    background-color:cornflowerblue;
+}
+
+.products .flex-child2{
+    flex:1;
+    margin-left:-3%;
+}
+/* end of all products page css */
+
+
+footer {
+    grid-column:1/4;
+    grid-row:3;
+    background-color:aqua;
+    height:150px;
+    margin-top:5%;
+}
