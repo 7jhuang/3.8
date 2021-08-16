@@ -75,7 +75,12 @@ function check() {
     }
 
     else if (a<=2 && b<=2 && c<=2 && d<=2) {
-    result.innerHTML="Sorry, we cannot determine your skin type based on your answers. Please take the quiz again and ensure all questions have been answered."
-}
+    result.innerHTML="Sorry, we cannot determine your skin type based on your answers. Please take the quiz again and ensure all questions have been answered.";
+    }
+      
+    var str="To all products page";
+    var result=str.link("all-products.html");
+    document.getElementById("redirect").innerHTML=result;
+
     
 }
