@@ -164,11 +164,11 @@ nav li a:hover{
 
 .left a{
     display:inline-block;
-    background-color:#CCB4E7;
-    color:white;
+    background-color:#ceeddb;
+    color:black;
     text-decoration:none;
     padding:20px 15px;
-    border:1px solid #9673A6;
+    border:1px solid #688b7b;
     margin-top:5%;
     font-size:20px;
     border-radius:10px;
@@ -176,7 +176,7 @@ nav li a:hover{
 
 .left a:hover{
     text-decoration:underline;
-    background-color:#b196d0;
+    background-color:#85baa1;
     transition:0.2s;
 }
 
@@ -202,19 +202,19 @@ nav li a:hover{
 
 .right a{
     display:inline-block;
-    background-color:#CCB4E7;
-    color:white;
+    background-color:#ceeddb;
+    color:black;
     text-decoration:none;
     padding:20px 15px;
     margin-top:5%;
     border-radius:10px;
-    border:1px solid #9673A6;
+    border:1px solid #688b7b;
     font-size:20px;
 }
 
 .right a:hover{
     text-decoration:underline;
-    background-color:#b196d0;
+    background-color:#85baa1;
     transition:0.2s;
 }
 /* end of index page css */
@@ -231,16 +231,16 @@ nav li a:hover{
 }
 
 #quiz{
-    background-color:#ccb4e7;
-    border:1px solid #9673A6;
+    background-color:#ceeddb;
+    border:1px solid #688b7b;
     margin:0 7.5%;
-    color:white;
+    color:black;
 }
 
 #quiz h1{ 
     text-align:center;
     margin-top:5%;
-    color:white;
+    color:black;
 }
 
 #quiz h2{
@@ -266,7 +266,7 @@ nav li a:hover{
 .choicebox .placeholder{
     width:85%;
     height:170px;
-    border:1px solid white;
+    border:1px solid black;
     margin:0 auto;
 }
 
@@ -280,11 +280,11 @@ nav li a:hover{
 }
 
 #quiz #submit{
-	background-color:#9673A6;
+	background-color:#688b7b;
 	border:none;
 	padding:12px 30px;
 	cursor:pointer;
-	color:white;
+	color:black;
 	margin:2% auto;
 	display:block;
     border-radius:10px;
@@ -296,10 +296,10 @@ nav li a:hover{
     min-height:320px;
     padding-bottom:35px;
     margin:0 7.5%;
-    background-color:#ccb4e7;
-    border:1px solid #9673A6;
+    background-color:#ceeddb;
+    border:1px solid #688b7b;
     text-align:center;
-    color:white;
+    color:black;
 }
 
 #yourresult #resulthead {
@@ -314,7 +314,7 @@ nav li a:hover{
 
 #yourresult #redirect a{
     font-size:20px;
-    color:white;
+    color:black;
     text-decoration:none;
 }
 
@@ -388,9 +388,9 @@ nav li a:hover{
 .article-list .nav-buttons a{
     margin:0 5%;
     text-decoration:none;
-    color:white;
+    color:black;
     padding:5px;
-    background-color:#ccb4e7;
+    background-color:#ceeddb;
     border-radius:5px;
 }
 
@@ -399,7 +399,7 @@ nav li a:hover{
 }
 
 .article-list .nav-buttons a:hover{
-    background-color:#9673A6;
+    background-color:#85baa1;
 }
 
 .article-list .nav-buttons p{
@@ -555,9 +555,9 @@ nav li a:hover{
 .products .nav-buttons a{
     margin:0 12%;
     text-decoration:none;
-    color:white;
+    color:black;
     padding:5px;
-    background-color:#ccb4e7;
+    background-color:#ceeddb;
     border-radius:5px;
 }
 
@@ -566,7 +566,7 @@ nav li a:hover{
 }
 
 .products .nav-buttons a:hover{
-    background-color:#9673A6;
+    background-color:#85baa1;
 }
 
 .products .nav-buttons p{
