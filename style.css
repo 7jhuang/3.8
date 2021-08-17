@@ -164,11 +164,11 @@ nav li a:hover{
 
 .left a{
     display:inline-block;
-    background-color:#ceeddb;
+    background-color:#f2e5cf;
     color:black;
     text-decoration:none;
     padding:20px 15px;
-    border:1px solid #688b7b;
+    border:1px solid #d4c7af;
     margin-top:5%;
     font-size:20px;
     border-radius:10px;
@@ -176,7 +176,7 @@ nav li a:hover{
 
 .left a:hover{
     text-decoration:underline;
-    background-color:#85baa1;
+    background-color:#eddec2;
     transition:0.2s;
 }
 
@@ -202,19 +202,19 @@ nav li a:hover{
 
 .right a{
     display:inline-block;
-    background-color:#ceeddb;
+    background-color:#f2e5cf;
     color:black;
     text-decoration:none;
     padding:20px 15px;
     margin-top:5%;
     border-radius:10px;
-    border:1px solid #688b7b;
+    border:1px solid #d4c7af;
     font-size:20px;
 }
 
 .right a:hover{
     text-decoration:underline;
-    background-color:#85baa1;
+    background-color:#eddec2;
     transition:0.2s;
 }
 /* end of index page css */
@@ -231,8 +231,8 @@ nav li a:hover{
 }
 
 #quiz{
-    background-color:#ceeddb;
-    border:1px solid #688b7b;
+    background-color:#f2e5cf;
+    border:1px solid #d4c7af;
     margin:0 7.5%;
     color:black;
 }
@@ -280,7 +280,7 @@ nav li a:hover{
 }
 
 #quiz #submit{
-	background-color:#688b7b;
+	background-color:#d4c7af;
 	border:none;
 	padding:12px 30px;
 	cursor:pointer;
@@ -296,8 +296,8 @@ nav li a:hover{
     min-height:320px;
     padding-bottom:35px;
     margin:0 7.5%;
-    background-color:#ceeddb;
-    border:1px solid #688b7b;
+    background-color:#f2e5cf;
+    border:1px solid #d4c7af;
     text-align:center;
     color:black;
 }
@@ -390,7 +390,7 @@ nav li a:hover{
     text-decoration:none;
     color:black;
     padding:5px;
-    background-color:#ceeddb;
+    background-color:#f2e5cf;
     border-radius:5px;
 }
 
@@ -399,7 +399,7 @@ nav li a:hover{
 }
 
 .article-list .nav-buttons a:hover{
-    background-color:#85baa1;
+    background-color:#eddec2;
 }
 
 .article-list .nav-buttons p{
@@ -557,7 +557,7 @@ nav li a:hover{
     text-decoration:none;
     color:black;
     padding:5px;
-    background-color:#ceeddb;
+    background-color:#f2e5cf;
     border-radius:5px;
 }
 
@@ -566,7 +566,7 @@ nav li a:hover{
 }
 
 .products .nav-buttons a:hover{
-    background-color:#85baa1;
+    background-color:#eddec2;
 }
 
 .products .nav-buttons p{
