@@ -17,6 +17,14 @@ h1, h2{
     font-weight:normal;
 }
 
+h1{
+    font-family:DM Serif Display;
+}
+
+h2, p{
+    font-family:DM Sans;
+}
+
 header {
     grid-row:1;
     grid-column:1/4;
@@ -117,6 +125,14 @@ nav li a:hover{
     text-align:center;
     margin-top:12%;
     font-size:4.5em;
+    margin-bottom:0;
+}
+
+.box1 h2 {
+    text-align:center;
+    margin-top:0;
+    font-size:4.5em;
+    font-family:DM Sans;
 }
 
 .box2 {
@@ -172,6 +188,8 @@ nav li a:hover{
     margin-top:5%;
     font-size:20px;
     border-radius:10px;
+    font-family:DM Serif Display;
+    letter-spacing:1px;
 }
 
 .left a:hover{
@@ -210,6 +228,8 @@ nav li a:hover{
     border-radius:10px;
     border:1px solid #d4c7af;
     font-size:20px;
+    font-family:DM Serif Display;
+    letter-spacing:1px;
 }
 
 .right a:hover{
@@ -288,6 +308,12 @@ nav li a:hover{
 	margin:2% auto;
 	display:block;
     border-radius:10px;
+    font-family:DM Serif Display;
+    font-size:20px;
+}
+
+#quiz #submit:hover {
+    background-color:#bdb19d;
 }
 
 #yourresult{
@@ -361,23 +387,17 @@ nav li a:hover{
     display:inline-block;
 }
 
-.article-list .title a{
+.title a{
     text-decoration:none;
     color:black;
     font-size:30px;
     padding-left:20px;
+    font-family:DM Serif Display;
 }
 
 .article-list .title a:hover{
     text-decoration:underline;
 }
-
-.article-list h2{
-    text-align:center;
-    padding:0;
-    margin-top:1.75%;
-}
-
 
 .article-list .nav-buttons{
     text-align:center;
@@ -484,6 +504,7 @@ nav li a:hover{
     font-size:18px;
     text-decoration:none;
     color:black;
+    font-family:DM Sans;
 }
 
 .similar a:hover{
@@ -531,6 +552,7 @@ nav li a:hover{
 .product-box a{
     text-decoration:none;
     color:black;
+    font-family:DM Sans;
 }
 
 .product-box a:hover{
@@ -603,6 +625,7 @@ footer a{
     margin-left:42%;
     text-decoration:none;
     color:white;
+    font-family:DM Sans;
 }
 
 footer a:hover{
