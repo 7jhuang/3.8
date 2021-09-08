@@ -88,17 +88,26 @@ h1, h2{
 /* end of index page css */
 
 /* quiz page css */
-.quizbox{
+.quiz-page{
     grid-column:2/4;
+}
+
+.quiz-page h1{
+    color:black;
+    text-align:center;
+}
+
+.quizbox{
     background-color:#ccb4e7;
     border:1px solid #9673A6;
-    margin:5% 7.5% 0;
+    margin:0% 7.5% 0;
     color:white;
 }
 
 .quizbox h1{ 
     text-align:center;
     margin-top:5%;
+    color:white;
 }
 
 .quizbox h2{
@@ -111,6 +120,16 @@ h1, h2{
     text-align:center;
     margin-top:15%;
     margin-bottom:5%;
+}
+
+.quizbox button{
+	background-color:#9673A6;
+	border:none;
+	padding:15px 30px;
+	cursor:pointer;
+	color:white;
+	margin:0 auto;
+	display:block;
 }
 /* end of quiz page css */
 
@@ -144,6 +163,29 @@ h1, h2{
     text-align:center;
     padding:0;
     margin-top:1.75%;
+}
+
+.article-list .nav-buttons{
+    text-align:center;
+    margin-top:2%;
+    width:100%;
+}
+
+.article-list .nav-buttons a{
+    margin:0 5%;
+    text-decoration:none;
+    color:white;
+    padding:5px;
+    background-color:#ccb4e7;
+    border-radius:5px;
+}
+
+.article-list .nav-buttons a:hover{
+    background-color:#9673A6;
+}
+
+.article-list .nav-buttons p{
+    margin-top:-1.5%;
 }
 
 /* end of article list page css */
@@ -214,27 +256,65 @@ h1, h2{
     text-align:center;
 }
 
-.products .flex-container{
-    background-color:palegreen;
-    margin-top:3%;
-    display:flex;
+.container{
+    margin-left:1.5%;
+    height:auto;
+    background: mediumaquamarine;
 }
 
-.products .flex-child{
-    flex:1;
+.product-box{
+    float:left;
+    height:auto;
+    width:24vw;
+    text-align:center;
+    word-wrap:break-word;
+    border-right:1px solid grey;
+    border-bottom:1px solid grey;
+}
+
+.top-row .product-box{
+    border-top:2px solid grey;
+}
+
+#first{
+    border-left:1px solid grey;
+}
+
+.product-box .image{
     border:1px solid black;
-    height:300px;
-    margin:0 2%;
+    height:250px;
+    margin:7% 9% 3%;
 }
 
-.products .flex-container2{
-    display:flex;
-    background-color:cornflowerblue;
+.product-box p{
+    margin:0 auto 2%;
 }
 
-.products .flex-child2{
-    flex:1;
-    margin-left:-3%;
+.product-box h2{
+    margin:0;
+}
+
+.products .nav-buttons{
+    margin-top:2%;
+    display:inline-block;
+    width:20%;
+}
+
+.products .nav-buttons a{
+    margin:0 12%;
+    text-decoration:none;
+    color:white;
+    padding:5px;
+    background-color:#ccb4e7;
+    border-radius:5px;
+}
+
+.products .nav-buttons a:hover{
+    background-color:#9673A6;
+}
+
+.products .nav-buttons p{
+    margin-top:-6%;
 }
 /* end of all products page css */
 
