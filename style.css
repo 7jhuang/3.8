@@ -431,21 +431,44 @@ a.current{
     width:25%;
     height:180px;
     margin:2% 0 3% 5%;
-    border:1px solid black;
     display:inline-block;
+}
+
+.article-list .image img{
+    width:100%;
+    height:180px;
+}
+
+.article-list .image-first img{
+    width:100%;
+    height:180px;
 }
 
 .article-list .title{
-    width:40%;
+    width:50%;
     display:inline-block;
+    vertical-align:top;
 }
 
-.title a{
+.article-list .title p{
+    padding-left:20px;
+    font-size:20px;
+    width:60%;
+}
+
+.article-list .title a{
+    display:inline-block;
     text-decoration:none;
     color:black;
+    margin-top:0;
+    padding-top:0;
     font-size:30px;
     padding-left:20px;
     font-family:DM Serif Display;
+}
+
+.article-list .title a.first{
+    margin-top:5%;
 }
 
 .article-list .title a:hover{
@@ -484,7 +507,7 @@ a.current{
 /* article page css */
 .article{
     grid-column:2/4;
-    height:1200px;
+    height:auto;
     margin:5% 7.5% 0;
 }
 
@@ -502,9 +525,7 @@ a.current{
 }
 
 .article .video{
-    border:1px solid black;
-    height:450px;
-    margin:5% 5%;
+    margin:0 5% 5%;
 }
 
 .article p{
@@ -514,12 +535,26 @@ a.current{
     line-height:1.25em;
 }
 
-.article .content-image{
-    border:solid 1px black;
+.article .content-image-resized img{
     float:right;
     width:30%;
     height:200px;
     margin:2% 60px 0 2%;
+}
+
+
+.article .content-image img{
+    float:right;
+    width:auto;
+    height:auto;
+    margin:2% 60px 0 0;
+}
+
+.article .content-image-left img{
+    float:left;
+    width:auto;
+    height:auto;
+    margin:2% 0 0 2%;
 }
 
 .similar{
@@ -544,6 +579,11 @@ a.current{
     margin:0 2%;
 }
 
+.similar .flex-child img{
+    width:100%;
+    height:200px;
+}
+
 .similar .flex-container2{
     display:flex;
 }
@@ -554,6 +594,8 @@ a.current{
 }
 
 .similar a{
+    display:inline-block;
+    margin-top:1%;
     font-size:18px;
     text-decoration:none;
     color:black;
@@ -636,7 +678,11 @@ a.current{
     border-radius:5px;
 }
 
-.products .nav-buttons a.page1{
+.nav-buttons a.page1{
+    visibility:hidden;
+}
+
+.nav-buttons a.page4{
     visibility:hidden;
 }
 
