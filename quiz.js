@@ -47,40 +47,53 @@ function check() {
     resulthead.innerHTML="Combination Skin Type";
     result.innerHTML="So what does this mean?" + "<br>"
     + "<br>" + "It is very likely that you have combination type skin. This means that you have oily skin in some areas of your face (typically the T-zone) and dry skin in other areas. We recommend that you use products for combination type skin that is gentle enough for dry skin but strong enough to remove excess oils from your face.";
-
-    }
+    var str="To combination skin type products page";
+    var result=str.link("products-3.html");
+    document.getElementById("redirect").innerHTML=result;
+}
 
     else if (a >=3) {
     resulthead.innerHTML="Oily Skin Type";
     result.innerHTML="So what does this mean?" + "<br>"
     + "<br>" + "It is very likely that you have oily type skin. This means that your sebaceous glands are producing excessive amount of sebum. Oftentimes you'll feel as though your skin is quite shiny and leaves oil when you touch it. We recommend that you use lightweight products for oily skin types to prevent your skin feeling clogged with product, and be sure not to wash your face excessively (recommended max 2x daily).";
-    }
+    var str="To oily skin type products page";
+    var result=str.link("products-1.html");
+    document.getElementById("redirect").innerHTML=result;
+}
 
     else if (b >=3) {
     resulthead.innerHTML="Dry Skin Type";
     result.innerHTML="So what does this mean?" + "<br>"
     + "<br>" + "It is very likely that you have dry type skin. A lot of the time, dry skin is caused by weather changes. Oftentimes you'll feel as though your skin is quite dry and peels a little easily. We recommended that you keep a trusty moisturiser around with you and reapply as necessary.";
-    }
+    var str="To dry skin type products page";
+    var result=str.link("products-2.html");
+    document.getElementById("redirect").innerHTML=result;    
+}
 
     else if (c >=3) {
     resulthead.innerHTML="Normal Skin Type";
     result.innerHTML="So what does this mean?" + "<br>"
     + "<br>" + "It is very likely that you have normal type skin. This means that your skin is  balanced in terms of oiliness and dryness. Ironically, this is the rarest skin type! Lucky you! We recommend that you still keep with a simple routine to look after your skin.";
-    }
+    var str="Read some of our articles!";
+    var result=str.link("articles-1.html");
+    document.getElementById("redirect").innerHTML=result;    
+}
 
     else if (d >=3) {
     resulthead.innerHTML="Sensitive Skin Type";
     result.innerHTML="So what does this mean?" + "<br>"
     + "<br>" + "It is very likely that you have sensitive type skin. Oftentimes you'll feel as though your skin is quite red and reacts easily to any product you use. Additionally, it may be itchy and flaky. We recommend that you be gentle with cleansing and be sure to use products that are specifically for sensitive skin to not damage your natural skin barrier.";
-    }
+    var str="To sensitive skin type products page";
+    var result=str.link("products-4.html");
+    document.getElementById("redirect").innerHTML=result;    
+}
 
     else if (a<=2 && b<=2 && c<=2 && d<=2) {
-    result.innerHTML="Sorry, we cannot determine your skin type based on your answers. Please refresh the screen and take the quiz again and ensure all questions have been answered.";
-    }
-      
-    var str="To all products page";
-    var result=str.link("all-products.html");
-    document.getElementById("redirect").innerHTML=result;
+    result.innerHTML="Sorry, we cannot determine your skin type based on your answers. Please click the text below to take the quiz again and ensure all questions have been answered.";
+    var str="Go back to quiz";
+    var result=str.link("quiz.html");
+    document.getElementById("redirect").innerHTML=result; 
+}
 
     
 }
