@@ -150,7 +150,7 @@ a.current{
 
 .box2 p {
     text-align:center;
-    font-size:35px;
+    font-size:25px;
     margin-bottom:0;
 }
 
@@ -371,7 +371,7 @@ a.current{
 #yourresult{
     display:none;
     height:auto;
-    min-height:320px;
+    min-height:335px;
     padding-bottom:35px;
     margin:0 7.5%;
     background-color:#f2e5cf;
@@ -423,7 +423,6 @@ a.current{
     height:180px;
     margin-left:5%;
     margin-bottom:3%;
-    border:1px solid black;
     display:inline-block;
 }
 
@@ -574,7 +573,6 @@ a.current{
 
 .similar .flex-child{
     flex:1;
-    border:1px solid black;
     height:200px;
     margin:0 2%;
 }
