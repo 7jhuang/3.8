@@ -613,6 +613,11 @@ a.current{
     text-align:center;
 }
 
+.products p.subheading{
+    text-align:center;
+    font-size:20px;
+}
+
 .container{
     margin-left:1.5%;
     height:auto;
@@ -620,7 +625,7 @@ a.current{
 
 .product-box{
     float:left;
-    height:auto;
+    height:369.64px;
     width:24vw;
     text-align:center;
     word-wrap:break-word;
@@ -637,9 +642,13 @@ a.current{
 }
 
 .product-box .image{
-    border:1px solid black;
     height:250px;
     margin:7% 9% 3%;
+}
+
+.product-box .image img{
+    width:250px;
+    height:250px;
 }
 
 .product-box a{
