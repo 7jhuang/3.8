@@ -524,7 +524,7 @@ a.current{
 }
 
 .article .video{
-    margin:0 5% 5%;
+    margin:0 5% 1%;
 }
 
 .article p{
@@ -532,6 +532,12 @@ a.current{
     font-size:25px;
     margin-bottom:0;
     line-height:1.25em;
+}
+
+.article p.credit{
+    padding:0 60px;
+    font-size:18px;
+    margin-top:0;
 }
 
 .article .content-image-resized img{
